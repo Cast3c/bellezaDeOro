@@ -10,7 +10,7 @@ const Navbar = () => {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false)
 
   return (
-    <nav className='fixed top-0 left-0 right-0 flex items-center justify-between px-3  shadow-md bg-darkgreen/95 backdrop-blur-sm text-cream  z-50'>
+    <nav className='fixed top-0 left-0 right-0 h-15 flex items-center justify-between px-3  shadow-md bg-darkgreen/95 backdrop-blur-sm text-cream  z-50'>
       <Link href='/' className='flex items-center'>
         <Image src='/images/boLogo.png' alt='logo' width={76} height={29} />
         <div className=' text-2xl md:text-3xl font-black'>Belleza de oro</div>

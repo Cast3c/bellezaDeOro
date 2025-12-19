@@ -36,7 +36,7 @@ const Catalog = () => {
         <div className="flex flex-col lg:flex-row gap-8">
           
           {/* Sidebar de filtros - Sticky en desktop */}
-          <aside className="lg:w-64 lg:sticky lg:top-24 lg:self-start">
+          <aside className="w-full lg:w-64 lg:sticky lg:top-24 lg:h-fit">
             <div className="bg-white p-6 rounded-lg shadow-md space-y-6">
               
               <div className="flex items-center gap-2 text-darkgreen font-bold text-lg">

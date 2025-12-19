@@ -9,7 +9,7 @@ const Featured = () => {
       {FEATURED.map((item, index) => (
         <div 
           key={item.id} 
-          className={`relative flex pt-10 p-5 items-center justify-around   ${index % 2 === 0 ? 'flex-col-reverse md:flex-row-reverse bg-white' : 'flex-col md:flex-row bg-cream'} `}
+          className={`relative flex pt-15 p-8 items-center justify-around   ${index % 2 === 0 ? 'flex-col-reverse md:flex-row-reverse bg-white' : 'flex-col md:flex-row bg-cream'} `}
         >
           <div></div>
           {/* Contenido de la imagen */}
