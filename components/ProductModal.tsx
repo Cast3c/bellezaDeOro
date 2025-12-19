@@ -93,7 +93,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
 
               <div className="pt-4 space-y-3">
                 <a
-                  href={product.whatsappLink || `https://wa.me/573001234567?text=Hola, me interesa ${product.name}`}
+                  href={product.whatsappLink || `hhttps://api.whatsapp.com/send?phone=573018507938&text=Hola!%20Lindo%20d%C3%ADa%20quiero%20tener%20m%C3%A1s%20informaci%C3%B3n%F0%9F%92%8E ${product.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-[#25D366] text-white rounded-lg hover:bg-[#20BA5A] transition-all font-semibold"

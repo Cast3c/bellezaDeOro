@@ -29,6 +29,7 @@ const Hero = () => {
               type="button"
               title={HERO.primaryCTA.text}
               variant="btn_darkGreen"
+              href='https://api.whatsapp.com/send?phone=573018507938&text=Hola!%20Lindo%20d%C3%ADa%20quiero%20tener%20m%C3%A1s%20informaci%C3%B3n%F0%9F%92%8E'
             />
             <div className="price_brown flex w-full justify-center items-center px-2 py-1 rounded-lg font-extrabold cursor-pointer drop-shadow-lg bold-16">
               ${HERO.badge}

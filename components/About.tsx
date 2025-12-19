@@ -7,9 +7,9 @@ const About = () => {
     <section id="about" className="w-full bg-ligthgreen py-24">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-16">
           {ABOUT.badge && (
-            <span className="inline-block px-4 py-2 bg-cream text-darkgreen rounded-full text-sm font-extrabold mb-4">
+            <span className="inline-block px-4 text-cream rounded-full text-xl font-extrabold mb-4">
               {ABOUT.badge}
             </span>
           )}

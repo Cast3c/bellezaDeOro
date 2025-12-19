@@ -212,15 +212,15 @@ export const FEATURED: Featured[] = [
     id: 1,
     title: "Brilla con luz propia cada dia",
     paraph:"Aretes que capturan miradas y reflejan tu personalidad única. Diseñados para mujeres que no pasan desapercibidas y saben que los detalles lo son todo.",
-    image: "/images/feturedEarrings.jpg",
-    cta: { text:"Explorar coleccion", href:"" }
+    image: "/images/aretes_x3_ch_mujer.jpg",
+    cta: { text:"Explorar coleccion", href:"/catalog" }
   },
   {
     id: 2,
     title: "Lujo que se siente calidad que se ve",
-    paraph: "Anillos elaborados con técnicas artesanales y cristales de máxima brillantez. Perfectos para esas ocasiones donde quieres sentirte imparable y radiante.",
-    image: "/images/gold-ring.jpg",
-    cta: { text:"Ver más diseños", href:"" }
+    paraph: "Cadena con diseño clásico y acabado brillante. Perfecta para usar sola o con otros accesorios, combina elegancia y durabilidad.",
+    image: "/images/cadena_serpiente_hombre_6mm.jpg",
+    cta: { text:"Ver más diseños", href:"/catalog" }
   }
 ]
 // ============================================
@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
     gender: 'hombre',
     price: 150000,
     description: 'Pulsera de Oro Laminado Americano 18K con diseño clásico y acabado brillante.',
-    image: '/images/cadena_chinesca_hombre.jpg',
+    image: '/images/pulsera_chinesca_hombre.jpg',
     material: 'Oro laminado 18k',
     inStock: true,
     isFeatured: false,
@@ -480,20 +480,6 @@ export const PRODUCTS: Product[] = [
     isFeatured: false,
     isNew: false,
     sku: 'CAD-FRA-019'
-  },
-  {
-    id: 51,
-    name: 'Cadena Trigo Hombre 5mm',
-    category: 'cadenas',
-    gender: 'hombre',
-    price: 180000,
-    description: 'Cadena de Oro Laminado Americano 18K con diseño clásico y acabado brillante.',
-    image: '/images/cadena_trigo_hombre_5mm.jpg',
-    material: 'Oro laminado 18k',
-    inStock: true,
-    isFeatured: false,
-    isNew: false,
-    sku: 'CAD-TRI-020'
   },
   {
     id: 20,
@@ -928,6 +914,20 @@ export const PRODUCTS: Product[] = [
     isFeatured: false,
     isNew: false,
     sku: 'PUL-CAR-050'
+  },
+  {
+    id: 51,
+    name: 'Pulsera Cartier Hombre 3mm/20cm',
+    category: 'pulseras',
+    gender: 'mujer',
+    price: 120000,
+    description: 'Pulsera de Oro Laminado Americano 18K con diseño clásico y acabado brillante.',
+    image: '/images/pulsera_cartier_hombre_3mm.jpg',
+    material: 'Oro laminado 18k',
+    inStock: true,
+    isFeatured: false,
+    isNew: false,
+    sku: 'PUL-CAR-050'
   }
 ]
 
@@ -1110,9 +1110,9 @@ export const FOOTER: Footer = {
     {
       title: 'Productos',
       links: [
-        { label: 'Cadenas', href: '#catalog' },
-        { label: 'Pulseras', href: '#catalog' },
-        { label: 'Aretes', href: '#catalog' },
+        { label: 'Cadenas', href: '/catalog' },
+        { label: 'Pulseras', href: '/catalog' },
+        { label: 'Aretes', href: '/catalog' },
         { label: 'Destacados', href: '#featured' }
       ]
     },
@@ -1120,9 +1120,9 @@ export const FOOTER: Footer = {
       title: 'Empresa',
       links: [
         { label: 'Nosotros', href: '#about' },
-        { label: 'Testimonios', href: '#testimonials' },
-        { label: 'Preguntas Frecuentes', href: '#faq' },
-        { label: 'Contacto', href: '#contact' }
+        // { label: 'Testimonios', href: '#testimonials' },
+        // { label: 'Preguntas Frecuentes', href: '#faq' },
+        { label: 'Contacto', href: 'https://api.whatsapp.com/send?phone=573018507938&text=Hola!%20Lindo%20d%C3%ADa%20quiero%20tener%20m%C3%A1s%20informaci%C3%B3n%F0%9F%92%8E' }
       ]
     },
     {

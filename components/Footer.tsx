@@ -27,8 +27,8 @@ const Footer = () => {
                 <Image 
                   src={FOOTER.company.logo}
                   alt={FOOTER.company.name}
-                  width={50}
-                  height={50}
+                  width={70}
+                  height={70}
                 />
               )}
               <h3 className="text-2xl font-bold">{FOOTER.company.name}</h3>

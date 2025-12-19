@@ -29,10 +29,9 @@ const Featured = () => {
               <p className='text-lg md:text-xl mb-8 font-semibold'>
                 {item.paraph}
               </p>
-              <Button type='button' title={item.cta.text} variant='btn_darkGreen' />
+              <Button type='button' title={item.cta.text} variant='btn_darkGreen' href={item.cta.href}/>
             </div>
           </div>
-
         </div>
       ))}
     </section>
