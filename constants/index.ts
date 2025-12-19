@@ -1069,7 +1069,7 @@ export const CONTACT: ContactInfo = {
   subtitle: 'Estamos aquí para ayudarte. Escríbenos y responderemos lo más pronto posible.',
   email: 'info@bellezadeoro.com',
   phone: '+57 300 123 4567',
-  whatsapp: 'https://wa.me/573001234567?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20sus%20joyas',
+  whatsapp: 'https://api.whatsapp.com/send?phone=573018507938&text=Hola!%20Lindo%20d%C3%ADa%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%F0%9F%92%8E',
   address: 'Bogotá, Colombia',
   hours: 'Lunes a Sábado: 9:00 AM - 6:00 PM',
   socialMedia: [
@@ -1085,7 +1085,7 @@ export const CONTACT: ContactInfo = {
     },
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/573001234567',
+      url: 'https://wa.me/573018507938',
       icon: 'whatsapp'
     },
     {
