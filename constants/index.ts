@@ -144,7 +144,7 @@ export const NAV_LINKS: NavLink[] = [
     { key: 'catalog', label: 'Catálogo', href: '/catalog', icon: MdDiamond },
     // { key: 'testimonials', label: 'Testimonios', href: '#testimonials', icon: MdStar },
     { key: 'about', label: 'Nosotros', href: '/#about', icon: MdInfo },
-    { key: 'contact', label: 'Contacto', href: '/#contact', icon: MdMail}
+    // { key: 'contact', label: 'Contacto', href: '/#contact', icon: MdMail}
     
 ]
 
@@ -936,8 +936,8 @@ export const CATEGORIES = [
   { key: 'all', label: 'Todos', value: 'all' },
   { key: 'cadenas', label: 'Cadenas', value: 'cadenas' },
   { key: 'aretes', label: 'Aretes', value: 'aretes' },
-  { key: 'pulsera', label: 'Pulsera', value: 'pulsera' },
-  { key: 'tobillera', label: 'Tobillera', value: 'tobillera' }
+  { key: 'pulseras', label: 'Pulseras', value: 'pulseras' },
+  { key: 'tobilleras', label: 'Tobilleras', value: 'tobilleras' }
 ]
 
 // Géneros para filtros
